@@ -1,0 +1,21 @@
+{
+	"name": "netlime-theme/title",
+	"description": "WordPress add title to head extension for NetLime Theme Core",
+	"authors": [
+		{
+			"name": "Erik Kubica",
+			"email": "erik.kubica@gmail.com",
+			"homepage": "https://www.netlime.eu",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^5.5.38 || ^7.0",
+		"netlime-theme/core": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {
+			"NetLimeTheme\\Title": ""
+		}
+	}
+}
